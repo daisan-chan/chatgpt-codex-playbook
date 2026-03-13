@@ -1,0 +1,2 @@
+# chatgpt-codex-playbook
+ChatGPTとCodexを使ったバイブコーディングの運用指針リポジトリ
