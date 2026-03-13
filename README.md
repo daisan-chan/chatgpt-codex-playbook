@@ -1,19 +1,24 @@
 # chatgpt-codex-playbook
 
-## このリポジトリの目的
+ChatGPT や Codex を使うと、要件整理、文書作成、レビュー、実装指示など、さまざまな生成物を作れます。  
+ただし実際には、「何を人が決めるのか」「何を ChatGPT に整理させるのか」「何を Codex に実行させるのか」が曖昧なままだと、運用はすぐにぶれます。  
+このリポジトリは、その迷いを減らすために、役割分担、進め方、テンプレート、レビュー観点を整理しておくための playbook です。
+
+## このリポジトリについて
 このリポジトリは、ChatGPT と Codex を使ったプロジェクト運用の「作業ルール」「協業手順」「再利用テンプレート」をまとめるためのドキュメント集です。実装コードではなく、進め方を揃えることを目的にします。
 
-## 想定利用者
-- プロジェクト方針を決める人（Human）
-- 要件整理・文章化を支援する人（ChatGPT 利用者）
-- 指示に基づきファイル変更を行う人（Codex 利用者）
+## 主な利用場面
+- プロジェクト開始時に進め方や方針を整理したいとき
+- 枝スレッドで論点や作業単位を切り分けたいとき
+- Codex に渡す実行プロンプトを組み立てたいとき
+- 生成物をレビューし、プルリクにまとめたいとき
 
 ## 役割分担（Human / ChatGPT / Codex）
 - **Human**: 目的・優先順位・最終判断を行う
 - **ChatGPT**: 論点整理、仕様の草案化、レビュー観点の明確化を支援する
 - **Codex**: 明示された指示に従ってリポジトリを編集し、変更結果を報告する
 
-## リポジトリマップ
+## リポジトリ構成
 - `AGENTS.md`: Codex 向けの編集ルール
 - `docs/00_project_playbook.md`: 全体運用ルール
 - `docs/01_project_brief_template.md`: プロジェクト要件テンプレート
@@ -22,7 +27,7 @@
 - `docs/04_review_checklist.md`: レビューとマージ判断のチェックリスト
 - `.github/pull_request_template.md`: ドキュメント向けプルリクテンプレート
 
-## 推奨の読み順
+## 読む順番
 1. `docs/00_project_playbook.md`
 2. `docs/02_threading_and_branching.md`
 3. `AGENTS.md`
@@ -30,7 +35,7 @@
 5. `docs/04_review_checklist.md`
 6. 必要に応じて `docs/01_project_brief_template.md`
 
-## 新しいプロジェクト開始時の使い方
+## 新しいプロジェクトを始めるときの使い方
 1. `docs/01_project_brief_template.md` を使って要件を整理する
 2. `docs/00_project_playbook.md` に沿って進行方針を確定する
 3. `docs/03_codex_prompt_template.md` を使って Codex 実行指示を作成する
