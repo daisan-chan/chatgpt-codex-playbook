@@ -9,7 +9,7 @@
 ## 変更前の必須読了順
 1. `README.md`
 2. `docs/00_project_playbook.md`
-3. `docs/02_threading_and_branching.md`
+3. `docs/01_threading_and_branching.md`
 4. `docs/03_codex_prompt_template.md`
 5. `docs/04_review_checklist.md`
 
