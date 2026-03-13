@@ -1,37 +1,37 @@
-# 01 Project Brief Template
+# 01 プロジェクト概要テンプレート
 
 以下をコピーしてプロジェクトごとに記入してください。
 
-## Project Name
+## プロジェクト名
 - 
 
-## Goal
+## 目的
 - 
 
-## Background
+## 背景
 - 
 
-## Scope
+## 対象範囲
 - 
 
-## Out of Scope
+## 対象外
 - 
 
-## Actors
+## 関係者
 - Human:
 - ChatGPT:
 - Codex:
 
-## Deliverables
+## 成果物
 - 
 
-## Constraints
+## 制約
 - 
 
-## Done when
+## 完了条件
 - 
 
-## Notes for ChatGPT / Codex Handoff
+## ChatGPT / Codex 引き継ぎメモ
 - ChatGPT に期待すること:
 - Codex に渡す実行指示:
 - レビュー時に重視する観点:

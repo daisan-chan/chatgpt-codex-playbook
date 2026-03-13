@@ -1,7 +1,7 @@
-# 03 Codex Prompt Template
+# 03 Codex 実行プロンプトテンプレート
 
 ## 再利用テンプレート
-以下を branch thread で Codex に渡してください。
+以下を枝スレッドで Codex に渡してください。
 
 ```md
 Goal
@@ -58,7 +58,7 @@ Target files
 
 Minimum content
 - README の役割分担節
-- docs/00 の Operating Model 節
+- docs/00 の運用モデル節
 
 Output format
 - 変更ファイル一覧

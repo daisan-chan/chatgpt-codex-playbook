@@ -17,10 +17,10 @@
 - `AGENTS.md`: Codex 向けの編集ルール
 - `docs/00_project_playbook.md`: 全体運用ルール
 - `docs/01_project_brief_template.md`: プロジェクト要件テンプレート
-- `docs/02_threading_and_branching.md`: スレッド運用と Git ブランチ運用
+- `docs/02_threading_and_branching.md`: スレッド運用と Gitブランチ運用
 - `docs/03_codex_prompt_template.md`: Codex 実行プロンプトテンプレート
 - `docs/04_review_checklist.md`: レビューとマージ判断のチェックリスト
-- `.github/pull_request_template.md`: ドキュメント向け PR テンプレート
+- `.github/pull_request_template.md`: ドキュメント向けプルリクテンプレート
 
 ## 推奨の読み順
 1. `docs/00_project_playbook.md`
@@ -35,4 +35,4 @@
 2. `docs/00_project_playbook.md` に沿って進行方針を確定する
 3. `docs/03_codex_prompt_template.md` を使って Codex 実行指示を作成する
 4. 小さな単位で変更し、`docs/04_review_checklist.md` でレビューする
-5. `.github/pull_request_template.md` で PR を作成し、main スレッドへ結果を戻す
+5. `.github/pull_request_template.md` でプルリクを作成し、幹スレッドへ結果を戻す
