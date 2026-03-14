@@ -11,8 +11,8 @@
 2. `docs/00_project_playbook.md`
 3. `docs/01_threading_and_branching.md`
 4. `docs/02_project_brief_template.md`
-5. `docs/03_codex_prompt_template.md`
-6. `docs/04_review_checklist.md`
+5. `docs/04_codex_prompt_template.md`
+6. `docs/05_review_checklist.md`
 
 ## ドキュメント構成ルール
 - ファイル名は既存命名を維持します。
