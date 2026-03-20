@@ -70,7 +70,7 @@ Goal
 - 既存 playbook 構成を保ちながら、README と docs の運用説明を差分拡張する。
 
 Context
-- 現状は幹 / 枝の説明が中心で、Project 指示文との接続が弱い。
+- たとえば、Project 情報源の登録方針や Project 指示文への導線を追加で整えたい。
 - `README.md`、`docs/00_project_playbook.md`、`docs/03_chatgpt_prompt_template.md` を主対象にする。
 - 既存の役割分担と番号順は維持する。
 
